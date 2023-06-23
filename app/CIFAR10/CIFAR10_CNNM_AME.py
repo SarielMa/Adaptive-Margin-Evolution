@@ -257,7 +257,7 @@ if __name__ == '__main__':
     os.environ["CUDA_VISIBLE_DEVICES"]=str(arg.cuda_id)
     device=torch.device('cuda' if torch.cuda.is_available() else "cpu")
     arg.delta=2/255
-    loss_name=(str(arg.beta)+'SMD'+'L'+str(arg.norm_type)
+    loss_name=(str(arg.beta)+'AME'+'L'+str(arg.norm_type)
                +'d'+str(arg.delta)
                +'_'+str(arg.max_iter)+'a'+str(arg.alpha)
                +'_s'+str(arg.stop)
@@ -290,5 +290,7 @@ if __name__ == '__main__':
     arg['return_idx']=(True, False, False)
     arg['loss_name']=loss_name
     arg['device'] = device
+    if not os.path.exists("result"):
+        os.mkdir("result") 
     main(epoch_start=arg['epoch_start'], epoch_end=arg['epoch_end'], train=train, arg=arg, evaluate_model=True)
 #%%

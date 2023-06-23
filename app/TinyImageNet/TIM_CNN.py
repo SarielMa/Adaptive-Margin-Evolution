@@ -401,8 +401,9 @@ def main_train(epoch_start, epoch_end, train, arg):
         result['adv_acc_val_list'] =adv_acc_val_list
         if 'E' in arg.keys():
             result['E']=arg['E']
-        if not os.path.exists("result"):
-            os.mkdir("result")            
+            
+ 
+            
         if (epoch+1)%10 == 0 :
             save_checkpoint(filename+'_epoch'+str(epoch)+'.pt', model, optimizer, result, epoch)
         if (epoch+1)%10 == 0 and acc_noisy > best_acc_noisy:
