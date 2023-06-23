@@ -8,15 +8,24 @@ advertorch
 autoattack
 
 # Guide
-## For CIFAR10
+### For CIFAR10
+
 run CIFAR10_CNNM_AME.py to get the AME model
+
 run CIFAR10_CNNM_ce.py to get the clean model
-## For SVHN
+
+### For SVHN
+
 run SVHN_CNN_AME.py to get the AME model
+
 run SVHN_CNN_ce.py to get the clean model
-## For Tiny ImageNet
+
+### For Tiny ImageNet
+
 run TIM_CNN_AME.py to get the AME model
+
 run TIM_CNN_ce.py to get the clean model
 
 # Contact
-Should you have any questions, please contact liang.liang@miami.edu or l.ma@miami.edu
+
+Should you have any questions, please get in touch with liang.liang@miami.edu or l.ma@miami.edu
