@@ -1,5 +1,5 @@
 # AME_official
-The official source code for the paper "Improving Adversarial Robustness of Deep Neural Networks via Adaptive Margin Evolution" 
+The official source code for the paper "Improving Adversarial Robustness of Deep Neural Networks via Adaptive Margin Evolution" (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4342066)
 
 # Requirements
 Python3.8.10
