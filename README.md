@@ -26,6 +26,10 @@ run TIM_CNN_AME.py to get the AME model
 
 run TIM_CNN_ce.py to get the clean model
 
+## The trained models
+
+The models are available at https://drive.google.com/drive/folders/1B-hjpdQ45_xQtqTVc0nOEV4DA1FylFcy?usp=sharing
+
 # Contact
 
 Should you have any questions, please get in touch with liang.liang@miami.edu or l.ma@miami.edu
