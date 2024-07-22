@@ -40,4 +40,4 @@ The random seed is 1.
 
 # Contact
 
-Should you have any questions, please feel free to get to contact liang.liang@miami.edu or l.ma@miami.edu
+Should you have any questions, please feel free to contact liang.liang@miami.edu or l.ma@miami.edu
