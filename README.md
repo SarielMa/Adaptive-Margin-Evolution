@@ -1,6 +1,8 @@
 # AME_official
 
-The official source code for the paper "Improving Adversarial Robustness of Deep Neural Networks via Adaptive Margin Evolution" (https://doi.org/10.1016/j.neucom.2023.126524)
+The official source code for the paper "Improving Adversarial Robustness of Deep Neural Networks via Adaptive Margin Evolution" 
+
+This paper is published in Neurocomputing (https://doi.org/10.1016/j.neucom.2023.126524)
 
 # Requirements
 
