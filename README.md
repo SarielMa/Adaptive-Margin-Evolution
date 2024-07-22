@@ -8,36 +8,36 @@ Python3.8.10
 
 Pytorch1.9.0
 
-advertorch
+advertorch (https://github.com/BorealisAI/advertorch)
 
-autoattack
+autoattack (https://github.com/fra31/auto-attack)
 
 
 # Guide
 ### For CIFAR10
 
-Run CIFAR10_CNNM_AME.py to get the AME model
+Run CIFAR10_CNNM_AME.py to get the proposed AME model
 
 Run CIFAR10_CNNM_ce.py to get the clean model
 
 ### For SVHN
 
-Run SVHN_CNN_AME.py to get the AME model
+Run SVHN_CNN_AME.py to get the proposed AME model
 
 Run SVHN_CNN_ce.py to get the clean model
 
 ### For Tiny ImageNet
 
-Run TIM_CNN_AME.py to get the AME model
+Run TIM_CNN_AME.py to get the proposed AME model
 
 Run TIM_CNN_ce.py to get the clean model
 
 ## The trained models
 
-The models are available at https://drive.google.com/drive/folders/1B-hjpdQ45_xQtqTVc0nOEV4DA1FylFcy?usp=sharing
+The trained models are available at https://drive.google.com/drive/folders/1B-hjpdQ45_xQtqTVc0nOEV4DA1FylFcy?usp=sharing
 
-The random seed of these models is 1. 
+The random seed is 1. 
 
 # Contact
 
-Should you have any questions, please get in touch with liang.liang@miami.edu or l.ma@miami.edu
+Should you have any questions, please feel free to get to contact liang.liang@miami.edu or l.ma@miami.edu
